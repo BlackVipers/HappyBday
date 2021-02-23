@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url(https://i.pinimg.com/originals/fd/2c/1a/fd2c1a96b654e220d09525f006482477.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+   
+
+}
+
+.rating{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.rating input
+{
+    display: none;
+}
+.rating label{
+    position: relative;
+    width: 0;
+    height: 128px;
+    cursor: crosshair;
+    transition: 0.5s;
+    filter: grayscale(1);
+    text-align: center;
+    opacity: 0;
+}
+.rating:hover label{
+    width: 160px;
+    opacity: 0.2;
+}
+.rating input:hover + label,
+.rating input:checked + label
+{
+    filter: grayscale(0);
+    opacity: 1;
+    width: 160px;
+}
+.rating label h4{
+    color: gold;
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: 500px;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateY(-50px) scale(0);
+    transition: 0.5s;
+}
+.rating input:hover + label h4,
+.rating input:checked + label h4 
+{
+    opacity: 1;
+    transform: translateY(0px) scale(1);  
+}
+.text{
+    color: goldenrod;
+    align: center;opacity:1 ;
+}
+
+a{
+    text-decoration: none;
+    color: gold;
+    
+}a:hover{
+    color: black;
+    background-color: rgb(221, 166, 38);
+    border: solid 5px chocolate;
+}
+.thankyou{
+    font-size: 30px;
+    align-self: center;
+    padding: 34px 156px;opacity: 0;
+}
+/* }
+.btn:hover{
+    color: gold;
+    background: green;
+}
+.btn{
+    float: right;
+} */

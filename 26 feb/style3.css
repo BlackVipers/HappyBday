@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background:url(https://media.tenor.com/images/70df1aa99ad6db55a513da87ab273ad1/tenor.gif); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROqu04f-qwiWMS6BIBXprwXs78ARRTEi93oA&usqp=CAU);
+}
+.myfeling{
+    font-family: Pacifico;
+    font-size: 90px;
+    line-height: 150px;
+    /* height: 20px;  */
+    text-align: center;
+    /* /* width: 50px;
+    /* display: inline; */
+    background: linear-gradient( 180deg, orangered , goldenrod );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+} 
+.myfeelings2{
+    font-family: Pacifico;
+    font-size: 90px;
+    line-height: 150px;
+    /* height: 20px;  */
+    text-align: center;
+    /* /* width: 50px;
+    /* display: inline; */
+    background: linear-gradient( 180deg, orangered , goldenrod );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+} 
+img{
+    border-radius: 50%;
+}
+.gif{
+    border-radius: 80%;  
+}
+.next{
+    float: right;
+}   
